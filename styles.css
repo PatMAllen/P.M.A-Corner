@@ -10,12 +10,77 @@ body{
      margin-right: 1% ;
      padding:0;
 }
-section{
-     width: 42%;
-     margin: 15px auto;
-     border-bottom: 10px solid black;
+/* Header Section*/
+ #title{
+     display:flex;
+     flex-direction: column;
+ }
 
+ #links{
+     display: inline-flex;
+     flex-direction: column;
+     padding-bottom: 12%;
+ }
+
+/* PORTFOLIO SECTION */
+#portfolio-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+ }
+
+ #winnipeg{
+     width: 100%;
+     border-radius: 15px;
+ }
+
+ /* My Career Section */
+#MyCareer {
+     font-size: large;
+     display: flex;
+     flex-direction: column;
+     width: 75%;
+     border: 1px solid black;
+     border-radius:15px;
+     background-color: midnightblue;
 }
+
+
+#UGA {
+     display: flex;
+     flex-direction: row;
+}
+
+#UGAvsVandy2k17 {
+     width: 500px;
+     border-radius: 15px;
+}
+
+/* My College Career Section*/
+#MyCollegeCareer {
+     display:flex;
+     background-color:midnightblue ;
+     flex-direction:column;
+     width: 75%;
+     border: 4px solid black;
+     border-radius:15px;
+     font-size: large;
+}
+
+#MyDawgWalk {
+     display:flex;
+     flex-direction: row;
+}
+
+#GoDawgs {
+     width: 500px;
+     border-radius:15px ;
+}
+
+
+
  main{
      padding-top: 5px;
  }
@@ -40,42 +105,15 @@ section{
 header,
 footer {
      position:relative;
-     top: 30px;
-     z-index:2 ;
      width: 100%;
      height: 100px;
      line-height: 80px;
-     border-bottom:15px solid black;
-     color:black;
+     border-bottom:10px solid black;
      background-color: midnightblue;
 }
 
-#GoBlueBombers{
-     border: 2px solid black;
-     border-width: 15px;
-     width: 640px; 
-     background-color: darkgrey;
-}
 
-.UGAvsVandy2k17{
-     margin: 10px 10px 10px 10px ;
-    border: 20px  solid black;
-     border-width: 10px;
-     width:1000px; 
-     background-color: darkgrey;
-     
-}
 
-#Mybio{
-     position:center;
-     
-     margin-left: 100px;
-     border: 20px solid black;
-      border-width: 100px;
-      background-color: darkgrey;
-
-     
-}
 
 
 
